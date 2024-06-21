@@ -1,5 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int[] arr = {2, 5, 10, 8, 11, 1, 3};
+
+        int max = arr[0];
+        for (int i = 1; i < arr.length - 1; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+
+        System.out.println(max);
     }
 }
