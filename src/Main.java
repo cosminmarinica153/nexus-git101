@@ -3,7 +3,7 @@ public class Main {
         int[] arr = {2, 5, 10, 8, 11, 1, 3};
 
         int max = arr[0];
-        for (int i = 1; i < arr.length; i++) {
+        for (int i = 1; i < arr.length - 1; i++) {
             if (arr[i] > max) {
                 max = arr[i];
             }
